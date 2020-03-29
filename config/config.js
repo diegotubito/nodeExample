@@ -14,8 +14,8 @@ let urlDB;
 //if (process.env.NODE_ENV === 'dev') {
 //  urlDB = 'yourlocalMondoDB';
 //} else {
-  urlDB = 'mongodb+srv://cafe:admin1234@cluster0-jfb6n.mongodb.net/test';
-  //urlDB = `${process.env.MONGO_URI}`;
+  //urlDB = 'mongodb+srv://cafe:admin1234@cluster0-jfb6n.mongodb.net/test';
+  urlDB = `${process.env.MONGO_URI}`;
 //}
 
 //nos creamos una variable global
