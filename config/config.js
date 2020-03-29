@@ -15,6 +15,7 @@ let urlDB;
 //  urlDB = 'yourlocalMondoDB';
 //} else {
   urlDB = 'mongodb+srv://cafe:admin1234@cluster0-jfb6n.mongodb.net/test';
+  //urlDB = `${process.env.MONGO_URI}`;
 //}
 
 //nos creamos una variable global

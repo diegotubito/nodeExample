@@ -16,6 +16,11 @@ mongoose.connect(process.env.URLDB,
     console.log('DB Connected...');
 });
 
+app.get('/', function (req, res) {
+  res.json({
+    respuesta: "ejemplo de respuesta"
+  });
+});
 
 app.get('/usuario', function (req, res) {
   let query = req.query;
